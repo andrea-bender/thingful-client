@@ -5,7 +5,6 @@ const ThingApiService = {
   getThings() {
     return fetch(`${config.API_ENDPOINT}/things`, {
       headers: {
-
       },
     })
       .then(res =>
